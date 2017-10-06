@@ -1,0 +1,21 @@
+# let the user know what's going on
+print ("Welcome to Creative story!")
+print ("Now, answer the questions below to play.")
+
+# variables containing all of your story info
+noise = raw_input("What can you hear: ")
+room = raw_input("A place that you like at home: ")
+famousPerson = raw_input("What is your favorite famous person?: ")
+food = raw_input("Your favorite food: ")
+gender = raw_input("Is your favorite person female?: ")
+Transportation =  raw_input(“Name a type of transport: ”)
+city = raw_input("Name a place: ")
+worstMoment = raw_input(“what is the worst part of your day?: “)
+action = raw_input(“what do you do when angry?: “)
+
+# this is the story. it is made up of strings and variables.
+
+story = “I hear” + “noise” + “in” + “room” + “and come down to find” + “famousPerson” + “guzzling” + “food” + “famousPerson” + “says” + “his/her” + “Transportation” + “broke down en route to” + “city” + “famousPerson” + “if you left me without” + “food” + “before” + “worstMoment” + “I will” + “action”
+
+# finally we print the story
+print (story)
