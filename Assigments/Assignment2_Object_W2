@@ -1,0 +1,6 @@
+glendaObj = {
+“name”: “Glenda”,
+“location” : “New York”,
+“Origin” : “Brasilia”,
+“niece” :1
+“Brazilian”: True

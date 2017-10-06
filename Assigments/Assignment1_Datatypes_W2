@@ -1,0 +1,12 @@
+status = "student"
+school = "SVA"
+programa = "Interaction Design"
+languages = ["English", "Code"]  #array or list
+yearsInSVA = 2  #years of programa
+inUS = True
+yearInELS = 1 #years studying English
+yearsinUS = (yearsInSVA + yearInELS) #number of years studying
+Glenda = (status + school + programa + languages + yearsinUS)
+
+print Glenda
+Print inUS #how do I do to print inUs True?
