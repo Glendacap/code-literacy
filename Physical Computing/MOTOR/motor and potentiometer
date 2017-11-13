@@ -1,0 +1,20 @@
+/********************************************************************
+Motor with a potentiometer to control its spin speed
+ *******************************************************************/
+int potpin = 0; // analog pin used to connect the potentiometer
+const int motorPin = 9;  // Connect the base of the transistor to pin 9.
+// Even though it's not directly connected to the motor,
+// we'll call it the 'motorPin'
+
+void setup()
+{
+  pinMode(motorPin, OUTPUT);  // set up the pin as an OUTPUT
+  Serial.begin(9600);         // initialize Serial communications
+}
+
+
+void loop()
+{ // This example basically replicates a blink, but with the motorPin instead.
+  int onTime = analogRead (potpin);
+  analogWrite(motorPin, onTime / 4); // turn the motor on (full speed)
+}
